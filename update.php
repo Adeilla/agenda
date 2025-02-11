@@ -47,6 +47,6 @@ $sql=mysqli_query($config,"update bukuagenda set Hari='$_POST[hr]',Tanggal='$_PO
 Waktu='$_POST[wt]',Lokasi='$_POST[lks]',Agenda='$_POST[agd]' WHERE Agenda='$_GET[id]'");
 
 echo "<script>alert('update successfully');</script>";
-echo "<script>location='index.php?halaman=tampilan';</script>";
+echo "<script>location='index.php?page=tampilan';</script>";
 }
 ?>
